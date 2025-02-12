@@ -1,0 +1,54 @@
+body {
+  padding: 3rem 0;
+  font-family: sans-serif;
+}
+
+.chart {
+  height: 400px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#map {
+  height: 800px;
+}
+
+ul {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+li {
+  list-style: none;
+  margin-right: 14px;
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: #5470c6;
+  color: #fff;
+  font-weight: 500;
+  transition: background-color 300ms ease;
+  margin-bottom: 1rem;
+}
+
+a:hover {
+  background-color: #3e61c9;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
